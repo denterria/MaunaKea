@@ -45,7 +45,7 @@ DATA: dict[int, list[ExpConfig]] = {
         #ExpConfig("45,55", 0.1104e3), # LHCb REPLACE by 86.6 GeV result below
         ExpConfig("??", 0.0866e3), # ADD LHCb (p-H = p-p)
         ExpConfig("37,41,42,44", 0.2e3), # OK
-        ExpConfig("34", 1.96e3), # OK, but p-pbar (not p-p)
+        ExpConfig("34", 1.96e3, -1), # OK, but p-pbar (not p-p)
         ExpConfig("19", 2.76e3), # OK
         ExpConfig("31", 5e3), # OK
         ExpConfig("20,32,92", 5.02e3, A["Pb"]), # OK
@@ -63,7 +63,7 @@ DATA: dict[int, list[ExpConfig]] = {
         ExpConfig("80", 0.63e3, -1),
         ExpConfig("77", 1.96e3),
         ExpConfig("76", 2.76e3),
-        ExpConfig("75", 5.02e3, A["Pb"]), 
+        # ExpConfig("75", 5.02e3, A["Pb"]), # NOT NEEDED
         ExpConfig("15,16,56", 7e3), 
         ExpConfig("56", 13e3), 
     ],
