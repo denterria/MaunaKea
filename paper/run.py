@@ -31,7 +31,7 @@ A: dict[str, int] = {"S": 32, "Au": 197, "Pb": 208}
 
 DATA: dict[int, list[ExpConfig]] = {
     3: [
-        ExpConfig("55", 0.0114e3), # 0.116e3 SVD2
+        ExpConfig("55", 0.0116e3), # 0.0114e3 -> 0.0116e3 SVD2
         ExpConfig("48", 0.0195e3), # ADD NA32
         ExpConfig("48", 0.0217e3), # OK E769
         ExpConfig("48", 0.026e3),  # OK NA16
